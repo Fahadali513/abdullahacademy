@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdullah Science Academy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+<link rel="icon" type="image" href="cap.ico">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo academy.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+
+    <!--------- about us content -------->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>Empowering Excellence in Education and Innovation</h1>
+                <p>Abdullah Science Academy prides itself on its commitment to academic excellence and holistic education. With a team of highly qualified teachers dedicated to nurturing students' potential, we ensure a supportive learning environment. Our rigorous test sessions prepare students thoroughly for exams, fostering confidence and competence. Equipped with a <br> state-of-the-art computer lab, we offer a wide range of courses spanning  various disciplines, ensuring students gain essential skills for the future. At Abdullah Science Academy, we believe in empowering our students with knowledge and practical experience, preparing them to excel both academically and professionally in the dynamic world of science and technology.</p>
+                <a href="course.html" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="certificate.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    
+    <!----- Footer -------->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>At Abdullah Science Academy, we offer highly qualified teachers, comprehensive test sessions,<br> and cutting-edge computer courses to ensure your academic success.</p>
+        <div class="sub-icons">
+            <a href="https://web.facebook.com/profile.php?id=61556561775429&mibextid=ZbWKwL&_rdc=1&_rdr"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <p>&copy CodewithFahad. All rights reserved</p>
+    </section>
+
+
+<!--------JavaScript for Toggle Menu------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px"
+        }
+    </script>
+</body>
+</html>

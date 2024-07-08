@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdullah Science Academy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+<link rel="icon" type="image" href="cap.ico">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo academy.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+    </section>
+
+
+    <!------ Course ------->
+    <section class="course">
+        <h1><b>Courses</b></h1>
+        <p>Abdullah Science Academy offers a range of courses including Matriculation, Intermediate,<br> and Bachelor's programs to cater to your educational needs.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Matriculation</h3>
+                <p>At Abdullah Science Academy, we offer comprehensive Matriculation courses led by highly qualified teachers. Our experienced faculty ensures each student receives personalized attention and quality education. Join us to achieve academic excellence and build a strong foundation for your future.</p>
+            </div>
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Abdullah Science Academy provides top-notch Intermediate courses with instruction from highly qualified teachers. Our dedicated faculty is committed to delivering an excellent educational experience and personalized support. Enroll with us to excel in your studies and prepare for a successful future.</p>
+            </div>
+            <div class="course-col">
+                <h3>Bachelor</h3>
+                <p>At Abdullah Science Academy, our Bachelor's courses are taught by highly qualified teachers who are dedicated to your academic success. Our experienced faculty provides personalized guidance and support to help you achieve your goals. Join us to gain the knowledge and skills needed for a prosperous future.</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!------ campus ------>
+    <section class="campus">
+        <h1><b>Courses We Offer</b></h1>
+        <p>At Abdullah Science Academy, we offer computer courses including Computer Applications,<br> WordPress, and Freelancing to enhance your digital skills and career opportunities.</p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="computer.jpg" alt="">
+                <div class="layer">
+                    <h3>Computer Applications</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="wordpres.jpg" alt="">
+                <div class="layer">
+                    <h3>Word Press</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="freelance.jpg" alt="">
+                <div class="layer">
+                    <h3>Freelancing</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+        <!----- Call To Action -------->
+        <section class="cta">
+            <h1>Enroll at Abdullah Science Academy today and start your <br> journey towards a brighter future!</h1>
+            <a href="contact.html" class="hero-btn">CONTACT US</a>
+        </section>
+    
+    
+
+
+
+
+    <!----- Footer -------->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>At Abdullah Science Academy, we offer highly qualified teachers, comprehensive test sessions,<br> and cutting-edge computer courses to ensure your academic success.</p>
+        <div class="sub-icons">
+            <a href="https://web.facebook.com/profile.php?id=61556561775429&mibextid=ZbWKwL&_rdc=1&_rdr"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <p>&copy CodewithFahad. All rights reserved</p>
+    </section>
+
+
+<!--------JavaScript for Toggle Menu------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px"
+        }
+    </script>
+</body>
+</html>
